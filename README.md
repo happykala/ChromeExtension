@@ -1,9 +1,8 @@
-1、扩展定义文件：manifest.json  
-在每一个扩展代码文件夹的根目录下需要有上述的json文件，用来定义当前的扩展基本信息和组织定义工程结构  
-
+### 1、扩展定义文件：manifest.json  
+在每一个扩展代码文件夹的根目录下需要有上述的json文件，用来定义当前的扩展基本信息和组织定义工程结构，更加详细的官方说明点击[这里](https://developer.chrome.com/extensions/manifest)
 ```json
 {
-	"manifest_version": 2,
+	"manifest_version": 2,//清单版本
 	"name": "测试处理",//名称
 	"version": "1.0",//版本
 	"description": "this is a test operation",//描述
@@ -40,3 +39,12 @@
 	"devtools_page":"devtools.html"//控制台工具栏处理
 }
 ```
+
+### 2、功能1：使用插件在chrome的右键菜单中加上自定义菜单
+
+|序号|功能|
+|:----:|:----:|
+|1|在右键菜单上加上自定义菜单点击触发通知|
+|2|右键菜单选中网页文字，快捷使用百度搜索|
+
+
